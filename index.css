@@ -1,0 +1,165 @@
+:root{
+    --font: 'Roboto Mono', monospace;
+    --color: rgb(2, 2, 153);
+    --color2: rgb(197, 198, 235);
+    
+}
+header{
+   
+    display:flex;
+    flex-direction: row;
+   
+    align-items: center;
+    justify-content: start;
+    padding:10px;
+    background-color:var(--color2);
+    gap: 70px;
+
+
+}
+body{
+    background-color: white;
+  padding:0;
+  margin:0;
+
+}
+main{
+    background-color: white;
+    margin: 190px;
+}
+footer{
+    
+    
+    padding: 10px;
+    background-color: blue;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.links{
+   display: flex;
+   flex-direction: row;
+  
+   font-size: 1.1em;
+   font-weight: bold;
+    font-family: Arial;
+   
+    gap: 30px;
+    
+}
+.links a{
+    text-decoration: none;
+    color: var(--color);
+   
+}
+.logo{
+   
+    text-decoration:none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 900;
+    font-size: 1.5em;
+    
+  
+}
+.logo:hover{
+    
+    width: fit-content;
+    text-decoration: underline;
+}
+.links :hover{
+   
+    color:white;
+     
+    
+}
+
+
+
+.container-flex{
+    
+    
+    display: flex;
+    justify-content:center;
+}
+form a{
+    color:rgb(2, 2, 153);
+    font-weight: 600;
+    
+}
+
+form{
+               
+    display: flex;
+    flex-direction: column;
+     
+    width: 350px;
+    padding: 40px;
+  
+    background-color:var(--color2);
+    
+}
+label{
+    color: var(--color);
+   
+    
+    font-family: var(--font);
+    padding: 1px;
+
+    
+  
+  
+
+}
+input{
+    padding:10px;
+    background-color: rgb(241, 241, 252);
+    
+   border: 1px solid blue;
+    
+    border-radius: 4px;
+   
+}
+input:focus{
+    
+   
+    outline: none;
+    box-shadow: 0 0 3px blue;
+   
+   
+
+   
+}
+input:focus:invalid{
+   
+    border: 1px solid rgba(255,0,0);
+    box-shadow: 0 0 3px rgba(255,0,0)
+    
+}
+button{
+align-self: center;
+width: 100px;
+padding: 10px;
+
+box-shadow:0 0 4px gray;
+border:1px solid gray ;
+
+border-radius: 5px;
+font-family: var(--font);
+color: var(--color);
+font-weight: 600;
+font-size: medium;
+
+}
+#checkbox{
+    box-shadow: 0 0 5px blue;
+}
+button:hover{
+    opacity: 0.8;
+    box-shadow:0 0 10px gray;
+    
+}
+::placeholder{
+    color:gray;
+}
