@@ -9,22 +9,28 @@ header{
     display:flex;
     flex-direction: row;
    
-    align-items: center;
-    justify-content: start;
+    
+    
     padding:10px;
-    background-color:var(--color2);
-    gap: 70px;
+   
+    gap: 100px;
 
 
 }
+
 body{
     background-color: white;
+    color: black;
   padding:0;
   margin:0;
 
 }
+body.dark{
+    background-color: black;
+    color:white;
+}
 main{
-    background-color: white;
+   
     margin: 190px;
 }
 footer{
@@ -32,8 +38,8 @@ footer{
     width: 100%;
     padding: 10px;
     bottom: 0;
-    background-color: blue;
-    color:white;
+    
+   
     font-family: Arial, Helvetica, sans-serif;
     
     
@@ -42,9 +48,9 @@ footer{
 .links{
    display: flex;
    flex-direction: row;
-  
+ 
    font-size: 1.1em;
-   font-weight: bold;
+   
     font-family: Arial;
    
     gap: 30px;
@@ -52,14 +58,14 @@ footer{
 }
 .links a{
     text-decoration: none;
-    color: var(--color);
+    
    
 }
 .logo{
    
     text-decoration:none;
     font-family: 'Roboto', sans-serif;
-    color: black;
+   
     font-weight: 900;
     font-size: 1.5em;
     
@@ -72,12 +78,16 @@ footer{
 }
 .links :hover{
    
-    color:white;
+    color:gray;
      
     
 }
 
-
+.changecolor{
+    display: flex;
+    flex-direction: row;
+    gap:1016px;
+}
 
 .container-flex{
     
@@ -86,7 +96,7 @@ footer{
     justify-content:center;
 }
 form a{
-    color:rgb(2, 2, 153);
+    
     font-weight: 600;
     
 }
@@ -98,12 +108,13 @@ form{
      
     width: 350px;
     padding: 40px;
+    border:1px solid;
   
-    background-color:var(--color2);
+   
     
 }
 label{
-    color: var(--color);
+    
    
     
     font-family: var(--font);
@@ -116,9 +127,9 @@ label{
 }
 input{
     padding:10px;
-    background-color: rgb(241, 241, 252);
     
-   border: 1px solid blue;
+    
+   border: 1px silver;
     
     border-radius: 4px;
    
@@ -127,7 +138,7 @@ input:focus{
     
    
     outline: none;
-    box-shadow: 0 0 3px blue;
+    box-shadow: 0 0 3px black;
    
    
 
@@ -139,29 +150,30 @@ input:focus:invalid{
     box-shadow: 0 0 3px rgba(255,0,0)
     
 }
-button{
-align-self: center;
+.submit{
+align-self: flex-end;
 width: 100px;
 padding: 10px;
 
 box-shadow:0 0 4px gray;
-border:1px solid gray ;
+border:1px solid black;
 
 border-radius: 5px;
 font-family: var(--font);
-color: var(--color);
+color: black;
 font-weight: 600;
 font-size: medium;
 
 }
 #checkbox{
-    box-shadow: 0 0 5px blue;
+    box-shadow: 0 0 2px black;
 }
 button:hover{
     opacity: 0.8;
-    box-shadow:0 0 10px gray;
+    box-shadow:0 0 3px black;
     
 }
 ::placeholder{
     color:gray;
 }
+
