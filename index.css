@@ -83,10 +83,8 @@ footer{
     
 }
 
-.changecolor{
-    display: flex;
-    flex-direction: row;
-    gap:1016px;
+#toggle-theme{
+    align-self: flex-end;
 }
 
 .container-flex{
