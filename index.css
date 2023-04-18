@@ -17,6 +17,10 @@ header{
 
 
 }
+#toggle-theme{
+    align-self: flex-end;
+   
+}
 
 body{
     background-color: white;
@@ -83,9 +87,7 @@ footer{
     
 }
 
-#toggle-theme{
-    align-self: flex-end;
-}
+
 
 .container-flex{
     
